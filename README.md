@@ -18,8 +18,7 @@ You need the WAV files, they are zipped at [Nextcloud](https://www.XYZ). Copy th
 Load on two LinuxSampler channels your Piano SFZ/SF2/GIG file and `PedalNoisesForPiano.sfz` or run two instances of Sforzando, your SFZ Piano and `PedalNoisesForPiano-ARIA.sfz`. You can also include `PedalNoisesForPiano.sfz` into your SFZ file. Edit SFZ files with a text editor. `PedalNoisesForPiano.sfz` should work in every Player supporting SFZv2, `PedalNoisesForPiano-ARIA.sfz` is especially for Sforzando (SFZv2 with ARIA extensions), here you can adjust volumes in the GUI (CC-MIDI). Enjoy!
 
 ## Licence ##
-Copyright (C) 2019 Klang Kollaboration
-Creative Commons Attribution 3.0 Germany [CC BY 3.0 DE](https://creativecommons.org/licenses/by/3.0/de/)
+Copyright (C) 2019 by Klang Kollaboration, Creative Commons Attribution 3.0 Germany [CC BY 3.0 DE](https://creativecommons.org/licenses/by/3.0/de/)
 
 
 ------
@@ -37,6 +36,5 @@ Du benötigst die WAV-Dateien, die als ZIP-Archiv auf der [Nextcloud](https://ww
 Lade in LinuxSampler auf einen Channel Dein SFZ/SF2/GIG Piano und auf einen zweiten `PedalNoisesForPiano.sfz`, oder starte zwei Sforzando Instanzen, Dein SFZ Piano und `PedalNoisesForPiano-ARIA.sfz`. Du kannst auch `PedalNoisesForPiano.sfz` in Deine SFZ Datei integrieren. SFZ-Dateien lassen sich mit einem Text-Editor bearbeiten. `PedalNoisesForPiano.sfz` sollte mit jedem Player, der SFZv2 unterstützt, kompatibel sein, `PedalNoisesForPiano-ARIA.sfz` ist speziell für Sforzando (SFZv2 with ARIA extensions), hier kannst Du die einzelnen Lautstärken in der GUI einstellen (CC-MIDI). Viel Freude!
 
 ## Licence ##
-Copyright (C) 2019 Klang Kollaboration
-Creative Commons Namensnennung 3.0 Deutschland [CC BY 3.0 DE](https://creativecommons.org/licenses/by/3.0/de/)
+Copyright (C) 2019 by Klang Kollaboration, Creative Commons Namensnennung 3.0 Deutschland [CC BY 3.0 DE](https://creativecommons.org/licenses/by/3.0/de/)
 

@@ -15,7 +15,7 @@ Many samplers allow you to load SFZ files, but few support all the format's feat
 You need the WAV files, they are zipped at [Nextcloud](https://www.XYZ). Copy the folder `Samples` containing the WAV files to the same level as the SFZ files.
 
 ## Usage ##
-Load on two LinuxSampler channels your Piano SFZ/SF2/GIG file and `PedalNoisesForPiano.sfz` or run two instances of Sforzando, your SFZ Piano and `PedalNoisesForPiano-ARIA.sfz`. You can also include `PedalNoisesForPiano.sfz` into your SFZ file. Edit SFZ files with a text editor. `PedalNoisesForPiano.sfz` should work in every Player supporting SFZv2, `PedalNoisesForPiano-ARIA.sfz` is especially for Sforzando (SFZv2 with ARIA extensions), here you can adjust volumes in the GUI (CC-MIDI). Enjoy!
+Load your Piano SFZ/SF2/GIG file and `PedalNoisesForPiano.sfz` on two different LinuxSampler channels or run two instances of Sforzando, your SFZ Piano and `PedalNoisesForPiano-ARIA.sfz`. You can also include `PedalNoisesForPiano.sfz` into your SFZ file. Edit SFZ files with a text editor. `PedalNoisesForPiano.sfz` should work in every Player supporting SFZv2, `PedalNoisesForPiano-ARIA.sfz` is especially for Sforzando (SFZv2 with ARIA extensions), here you can adjust volumes in the GUI (CC-MIDI). Enjoy!
 
 ## Licence ##
 Copyright (C) 2019 by Klang Kollaboration, Creative Commons Attribution 3.0 Germany [CC BY 3.0 DE](https://creativecommons.org/licenses/by/3.0/de/)

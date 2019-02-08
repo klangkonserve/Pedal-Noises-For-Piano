@@ -1,0 +1,99 @@
+// -----------------------------------
+//       Pedal Noises For Piano       
+//       by Klang Kollaboration       
+// -----------------------------------
+// SFZ Level: 2.0 with ARIA extensions
+// -----------------------------------
+
+
+// CONTROL ========================
+
+<control>
+default_path=Samples/
+
+label_cc64=Sustain Pedal
+label_cc66=Sostenuto Pedal
+label_cc67=Soft Pedal
+
+label_cc20=Sustain Vol
+label_cc21=String Noises Vol
+label_cc22=Sostenuto Vol
+label_cc23=Soft Vol
+set_hdcc20=0.5
+set_hdcc21=0.5
+set_hdcc22=0.5
+set_hdcc23=0.5
+
+
+// PEDALS =========================
+
+<global>
+global_label=Pedals
+
+// --------------------------------
+<master>
+master_label=Sustain Pedal
+amplitude_oncc20=200
+
+<group>
+group_label=PedalRelease
+loop_mode=one_shot seq_length=2 volume=-24
+group=1
+lokey=127 hikey=-1 on_locc64=0 on_hicc64=63
+<region> region_label=rr1 sample=PedalRelease_rr1.wav seq_position=1
+<region> region_label=rr2 sample=PedalRelease_rr2.wav seq_position=2
+
+<group>
+group_label=SustainPedal
+loop_mode=one_shot seq_length=2 volume=-12
+group=2 off_mode=normal off_by=1 ampeg_release=1
+lokey=127 hikey=-1 on_locc64=64 on_hicc64=127
+<region> region_label=rr1 sample=SustainPedal_rr1.wav seq_position=1
+<region> region_label=rr2 sample=SustainPedal_rr2.wav seq_position=2
+
+<group>
+group_label=StringNoise
+amplitude_oncc21=200
+loop_mode=one_shot seq_length=2 volume=-27
+group=2 off_mode=normal off_by=1 ampeg_release=1
+lokey=127 hikey=-1 on_locc64=64 on_hicc64=127
+<region> region_label=rr1 sample=StringNoise_rr1.wav seq_position=1
+<region> region_label=rr2 sample=StringNoise_rr2.wav seq_position=2
+
+// --------------------------------
+<master>
+master_label=Sostenuto Pedal
+amplitude_oncc22=200
+
+<group>
+group_label=PedalRelease
+loop_mode=one_shot seq_length=2 volume=-24
+lokey=127 hikey=-1 on_locc66=0 on_hicc66=63
+<region> region_label=rr1 sample=PedalRelease_rr1.wav seq_position=1
+<region> region_label=rr2 sample=PedalRelease_rr2.wav seq_position=2
+
+<group>
+group_label=SostenutoPedal
+loop_mode=one_shot seq_length=2 volume=-12
+lokey=127 hikey=-1 on_locc66=64 on_hicc66=127
+<region> region_label=rr1 sample=SostenutoPedal_rr1.wav seq_position=1
+<region> region_label=rr2 sample=SostenutoPedal_rr2.wav seq_position=2
+
+// --------------------------------
+<master>
+master_label=Soft Pedal
+amplitude_oncc23=200
+
+<group>
+group_label=PedalRelease
+loop_mode=one_shot seq_length=2 volume=-24
+lokey=127 hikey=-1 on_locc67=0 on_hicc67=63
+<region> region_label=rr1 sample=PedalRelease_rr1.wav seq_position=1
+<region> region_label=rr2 sample=PedalRelease_rr2.wav seq_position=2
+
+<group>
+group_label=SoftPedal
+loop_mode=one_shot seq_length=2 volume=-12
+lokey=127 hikey=-1 on_locc67=64 on_hicc67=127
+<region> region_label=rr1 sample=SoftPedal_rr1.wav seq_position=1
+<region> region_label=rr2 sample=SoftPedal_rr2.wav seq_position=2

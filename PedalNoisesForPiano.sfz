@@ -1,0 +1,63 @@
+// -----------------------------------
+//       Pedal Noises For Piano       
+//       by Klang Kollaboration       
+// -----------------------------------
+// SFZ Level: 2.0
+// -----------------------------------
+
+
+// CONTROL ========================
+
+<control>
+default_path=Samples/
+
+
+// PEDALS =========================
+
+// --------------------------------
+<group>
+loop_mode=one_shot seq_length=2 volume=-24
+group=1
+lokey=127 hikey=-1 on_locc64=0 on_hicc64=63
+<region> sample=PedalRelease_rr1.wav seq_position=1
+<region> sample=PedalRelease_rr2.wav seq_position=2
+
+<group>
+loop_mode=one_shot seq_length=2 volume=-12
+group=2 off_mode=normal off_by=1 ampeg_release=1
+lokey=127 hikey=-1 on_locc64=64 on_hicc64=127
+<region> sample=SustainPedal_rr1.wav seq_position=1
+<region> sample=SustainPedal_rr2.wav seq_position=2
+
+<group>
+loop_mode=one_shot seq_length=2 volume=-27
+group=2 off_mode=normal off_by=1 ampeg_release=1
+lokey=127 hikey=-1 on_locc64=64 on_hicc64=127
+<region> sample=StringNoise_rr1.wav seq_position=1
+<region> sample=StringNoise_rr2.wav seq_position=2
+
+// --------------------------------
+<group>
+loop_mode=one_shot seq_length=2 volume=-24
+lokey=127 hikey=-1 on_locc66=0 on_hicc66=63
+<region> sample=PedalRelease_rr1.wav seq_position=1
+<region> sample=PedalRelease_rr2.wav seq_position=2
+
+<group>
+loop_mode=one_shot seq_length=2 volume=-12
+lokey=127 hikey=-1 on_locc66=64 on_hicc66=127
+<region> sample=SostenutoPedal_rr1.wav seq_position=1
+<region> sample=SostenutoPedal_rr2.wav seq_position=2
+
+// --------------------------------
+<group>
+loop_mode=one_shot seq_length=2 volume=-24
+lokey=127 hikey=-1 on_locc67=0 on_hicc67=63
+<region> sample=PedalRelease_rr1.wav seq_position=1
+<region> sample=PedalRelease_rr2.wav seq_position=2
+
+<group>
+loop_mode=one_shot seq_length=2 volume=-12
+lokey=127 hikey=-1 on_locc67=64 on_hicc67=127
+<region> sample=SoftPedal_rr1.wav seq_position=1
+<region> sample=SoftPedal_rr2.wav seq_position=2
